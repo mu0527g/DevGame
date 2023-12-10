@@ -1,0 +1,41 @@
+[:00000002][DEBUG][07:33:09.81]LAUNCH snlua bootstrap
+[:00000003][DEBUG][07:33:09.81]LAUNCH snlua launcher
+[:00000004][DEBUG][07:33:09.82]LAUNCH snlua cdummy
+[:00000005][DEBUG][07:33:09.82]LAUNCH harbor 0 4
+[:00000006][DEBUG][07:33:09.82]LAUNCH snlua datacenterd
+[:00000007][DEBUG][07:33:09.82]LAUNCH snlua service_mgr
+[:00000008][DEBUG][07:33:09.82]LAUNCH snlua main
+[:00000008][DEBUG][07:33:09.82]Hello, world!
+[:00000008][DEBUG][07:33:09.82]KILL self
+[:00000002][DEBUG][07:33:09.82]KILL self
+[:00000002][DEBUG][07:34:29.41]LAUNCH snlua bootstrap
+[:00000003][DEBUG][07:34:29.41]LAUNCH snlua launcher
+[:00000001][DEBUG][07:34:29.41]Logger service start
+[:00000004][DEBUG][07:34:29.41]LAUNCH snlua cdummy
+[:00000005][DEBUG][07:34:29.41]LAUNCH harbor 0 4
+[:00000006][DEBUG][07:34:29.41]LAUNCH snlua datacenterd
+[:00000007][DEBUG][07:34:29.41]LAUNCH snlua service_mgr
+[:00000008][DEBUG][07:34:29.41]LAUNCH snlua main
+[:00000008][DEBUG][07:34:29.41]Hello, world!
+[:00000008][DEBUG][07:34:29.41]init service failed: ./lualib/log.lua:59: attempt to index a nil value (global 'skynet')
+stack traceback:
+	./lualib/log.lua:59: in upvalue 'send_log'
+	./lualib/log.lua:66: in function 'log.debug'
+	./service/main.lua:7: in upvalue 'start'
+	./skynet/lualib/skynet.lua:1043: in function <./skynet/lualib/skynet.lua:1041>
+	[C]: in function 'xpcall'
+	./skynet/lualib/skynet.lua:1045: in function 'skynet.init_service'
+	./skynet/lualib/skynet.lua:1058: in upvalue 'f'
+	./skynet/lualib/skynet.lua:357: in function <./skynet/lualib/skynet.lua:356>
+[:00000008][DEBUG][07:34:29.42]KILL self
+[:00000002][DEBUG][07:34:46.02]LAUNCH snlua bootstrap
+[:00000001][DEBUG][07:34:46.02]Logger service start
+[:00000003][DEBUG][07:34:46.02]LAUNCH snlua launcher
+[:00000004][DEBUG][07:34:46.02]LAUNCH snlua cdummy
+[:00000005][DEBUG][07:34:46.02]LAUNCH harbor 0 4
+[:00000006][DEBUG][07:34:46.02]LAUNCH snlua datacenterd
+[:00000007][DEBUG][07:34:46.02]LAUNCH snlua service_mgr
+[:00000008][DEBUG][07:34:46.02]LAUNCH snlua main
+[:00000008][DEBUG][07:34:46.02]Hello, world!
+[:00000008][DEBUG][07:34:46.02]KILL self
+[:00000002][DEBUG][07:34:46.02]KILL self

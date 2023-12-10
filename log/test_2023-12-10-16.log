@@ -1,0 +1,48 @@
+[:00000002][DEBUG][16:00:47.33]LAUNCH snlua bootstrap
+[:00000003][DEBUG][16:00:47.33]LAUNCH snlua launcher
+[:00000001][DEBUG][16:00:47.33]Logger start !!!
+[:00000004][DEBUG][16:00:47.33]LAUNCH snlua cdummy
+[:00000005][DEBUG][16:00:47.33]LAUNCH harbor 0 4
+[:00000006][DEBUG][16:00:47.33]LAUNCH snlua datacenterd
+[:00000007][DEBUG][16:00:47.33]LAUNCH snlua service_mgr
+[:00000008][DEBUG][16:00:47.33]LAUNCH snlua main
+[:00000008][DEBUG][16:00:47.33]Hello, world!
+[:00000008][DEBUG][16:00:47.33][main.lua:7] Hello, debug!
+[:00000008][ERROR][16:00:47.33][main.lua:8] Hello, error!
+[:00000008][INFO][16:00:47.33][main.lua:9] Hello, info!
+[:00000008][WARN][16:00:47.33][main.lua:10] Hello, warn!
+[:00000008][FATAL][16:00:47.33][main.lua:11] Hello, fatal!
+[:00000008][DEBUG][16:00:47.33]KILL self
+[:00000002][DEBUG][16:00:47.33]KILL self
+[:00000002][DEBUG][16:04:04.16]LAUNCH snlua bootstrap
+[:00000003][DEBUG][16:04:04.16]LAUNCH snlua launcher
+[:00000001][DEBUG][16:04:04.16]Logger start !!!
+[:00000004][DEBUG][16:04:04.16]LAUNCH snlua cdummy
+[:00000005][DEBUG][16:04:04.16]LAUNCH harbor 0 4
+[:00000006][DEBUG][16:04:04.16]LAUNCH snlua datacenterd
+[:00000007][DEBUG][16:04:04.16]LAUNCH snlua service_mgr
+[:00000008][DEBUG][16:04:04.16]LAUNCH snlua main
+[:00000008][DEBUG][16:04:04.16]Hello, world!
+[:00000008][DEBUG][16:04:04.16][main.lua:7] Hello, debug!
+[:00000008][ERROR][16:04:04.16][main.lua:8] Hello, error!
+[:00000008][INFO][16:04:04.16][main.lua:9] Hello, info!
+[:00000008][WARN][16:04:04.16][main.lua:10] Hello, warn!
+[:00000008][FATAL][16:04:04.16][main.lua:11] Hello, fatal!
+[:00000008][DEBUG][16:04:04.16]KILL self
+[:00000002][DEBUG][16:04:04.16]KILL self
+[:00000002][DEBUG][16:14:00.21]LAUNCH snlua bootstrap
+[:00000003][DEBUG][16:14:00.21]LAUNCH snlua launcher
+[:00000001][DEBUG][16:14:00.21]Logger start !!!
+[:00000004][DEBUG][16:14:00.21]LAUNCH snlua cdummy
+[:00000005][DEBUG][16:14:00.21]LAUNCH harbor 0 4
+[:00000006][DEBUG][16:14:00.22]LAUNCH snlua datacenterd
+[:00000007][DEBUG][16:14:00.22]LAUNCH snlua service_mgr
+[:00000008][DEBUG][16:14:00.22]LAUNCH snlua main
+[:00000008][DEBUG][16:14:00.22]Hello, world!
+[:00000008][DEBUG][16:14:00.22][main.lua:7] Hello, debug!
+[:00000008][ERROR][16:14:00.22][main.lua:8] Hello, error!
+[:00000008][INFO][16:14:00.22][main.lua:9] Hello, info!
+[:00000008][WARN][16:14:00.22][main.lua:10] Hello, warn!
+[:00000008][FATAL][16:14:00.22][main.lua:11] Hello, fatal!
+[:00000008][DEBUG][16:14:00.22]KILL self
+[:00000002][DEBUG][16:14:00.22]KILL self

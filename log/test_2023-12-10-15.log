@@ -1,0 +1,43 @@
+[:00000002][DEBUG][15:54:07.27]LAUNCH snlua bootstrap
+[:00000003][DEBUG][15:54:07.27]LAUNCH snlua launcher
+[:00000001][DEBUG][15:54:07.27]Logger service start
+[:00000004][DEBUG][15:54:07.27]LAUNCH snlua cdummy
+[:00000005][DEBUG][15:54:07.28]LAUNCH harbor 0 4
+[:00000006][DEBUG][15:54:07.28]LAUNCH snlua datacenterd
+[:00000007][DEBUG][15:54:07.28]LAUNCH snlua service_mgr
+[:00000008][DEBUG][15:54:07.28]LAUNCH snlua main
+[:00000008][DEBUG][15:54:07.28]Hello, world!
+[:00000008][DEBUG][15:54:07.28]KILL self
+[:00000002][DEBUG][15:54:07.28]KILL self
+[:00000002][DEBUG][15:54:38.00]LAUNCH snlua bootstrap
+[:00000003][DEBUG][15:54:38.00]LAUNCH snlua launcher
+[:00000001][DEBUG][15:54:38.00]Logger service start
+[:00000004][DEBUG][15:54:38.00]LAUNCH snlua cdummy
+[:00000005][DEBUG][15:54:38.00]LAUNCH harbor 0 4
+[:00000006][DEBUG][15:54:38.00]LAUNCH snlua datacenterd
+[:00000007][DEBUG][15:54:38.00]LAUNCH snlua service_mgr
+[:00000008][DEBUG][15:54:38.00]LAUNCH snlua main
+[:00000008][DEBUG][15:54:38.00]Hello, world!
+[:00000008][DEBUG][15:54:38.00][main.lua:7] Hello, debug!
+[:00000008][ERROR][15:54:38.00][main.lua:8] Hello, error!
+[:00000008][INFO][15:54:38.00][main.lua:9] Hello, info!
+[:00000008][WARN][15:54:38.00][main.lua:10] Hello, warn!
+[:00000008][FATAL][15:54:38.00][main.lua:11] Hello, fatal!
+[:00000008][DEBUG][15:54:38.00]KILL self
+[:00000002][DEBUG][15:54:38.00]KILL self
+[:00000002][DEBUG][15:58:28.65]LAUNCH snlua bootstrap
+[:00000003][DEBUG][15:58:28.65]LAUNCH snlua launcher
+[:00000001][DEBUG][15:58:28.65]Logger start !!!
+[:00000004][DEBUG][15:58:28.65]LAUNCH snlua cdummy
+[:00000005][DEBUG][15:58:28.65]LAUNCH harbor 0 4
+[:00000006][DEBUG][15:58:28.65]LAUNCH snlua datacenterd
+[:00000007][DEBUG][15:58:28.65]LAUNCH snlua service_mgr
+[:00000008][DEBUG][15:58:28.65]LAUNCH snlua main
+[:00000008][DEBUG][15:58:28.65]Hello, world!
+[:00000008][DEBUG][15:58:28.65][main.lua:7] Hello, debug!
+[:00000008][ERROR][15:58:28.65][main.lua:8] Hello, error!
+[:00000008][INFO][15:58:28.65][main.lua:9] Hello, info!
+[:00000008][WARN][15:58:28.65][main.lua:10] Hello, warn!
+[:00000008][FATAL][15:58:28.65][main.lua:11] Hello, fatal!
+[:00000008][DEBUG][15:58:28.65]KILL self
+[:00000002][DEBUG][15:58:28.65]KILL self

@@ -1,0 +1,17 @@
+-- 这是项目的根目录，所有其他路径都是相对于这个目录的
+root = "./skynet/"
+
+-- 这是Lua服务的路径。这个路径用于查找Skynet服务的Lua脚本。路径中的"?"字符是一个占位符，它会被实际的服务名替换。这个路径包含了几个目录，它们用分号分隔。
+luaservice ="./service/?.lua;" .. "./service/?/init.lua;".. root.."service/?.lua;" .. root.."service/?/init.lua"
+
+-- 这是Lua加载器的路径。Lua加载器是一个Lua脚本，它负责加载其他Lua脚本。
+lualoader = root .. "lualib/loader.lua"
+
+-- 这是Lua库的路径。这个路径用于查找Lua库的脚本。路径中的"?"字符是一个占位符，它会被实际的库名替换。
+lua_path ="./etc/?.lua;".."./lualib/?.lua;".."./lualib/?/init.lua;"..root.."lualib/?.lua;"..root.."lualib/?/init.lua"
+
+-- 这是Lua C库的路径。这个路径用于查找Lua的C扩展库。路径中的"?"字符是一个占位符，它会被实际的库名替换。
+lua_cpath ="luaclib/?.so;" ..root .. "luaclib/?.so;"
+
+-- 这是Snax服务的路径。Snax是Skynet的一个模块，它提供了一种简单的方式来编写Skynet服务。这个路径用于查找Snax服务的脚本
+snax = root.."examples/?.lua;"..root.."test/?.lua"
